@@ -1,0 +1,75 @@
+
+.profile-settings-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .profile-section h2 {
+    color: #2d3436;
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+  }
+  
+  .password-section {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #eee;
+  }
+  
+  .password-section h3 {
+    color: #2d3436;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+  }
+  
+  
+  .alert-message {
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    font-weight: 500;
+  }
+  
+  .alert-message.success {
+    background: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  .alert-message.error {
+    background: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  
+  .toggle-password {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #636e72;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin: 1rem 0;
+  }
+  
+  .toggle-password input {
+    margin: 0;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .profile-settings-container {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+  
+    .form-row {
+      grid-template-columns: 1fr;
+    }
+  }
